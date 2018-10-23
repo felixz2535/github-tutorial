@@ -93,7 +93,7 @@ It check what changes was made between two commits
 This commits review preview commits along with the SHA which can be useful when you want to refer to it in other commands.  
 
 **`q`**  
-When you are in `git log` you might be confused as to what to do most of the time by pressing q you can exit the log  
+When you are in `git log` you might be confused as to what to do most of the time. By pressing `q`, you can exit the log  
 
 **`rm -rf .git`**  
 This command removes your .git if you ever accidentally initialized a directory or decides to destory the bridge between the local and remote. 
@@ -121,7 +121,7 @@ The function of this command is to simply **"uncommit" and "unadd"**
 
 **`git reset --hard HEAD file`**  
 Lastly we have a command that does all of the following. It allows you to **"uncommit", "unadd", and "unedit"**
-
+<!--explain what SHA is-->
 **`git reset --hard [first nine digit of SHA]`**  
 This command deletes the commit you made from your remote.
 You can thing it as **"Unpushing"** a file.
