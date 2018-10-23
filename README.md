@@ -17,19 +17,28 @@ As long as you have internet you can go to github and look at the project.
 ## Initial Setup
  #### Create a GitHub Account  
  To create your github account you'll have too first got to [github.com](github.com),
- following that click on _Sign Up_ 
- #### Login to the GitHub Accont
+ following that click on _Sign Up_.
+ #### Login to the GitHub Account
+  After you've sign up you will need to sign in by clicking on the Sign In.
  #### Link the Account to your IDE with SSH key
- #### youareset
-
+ Depending on your IDE the way that you get your SSH key may vary but more or less the same.
+ After you get your SSH key you'll have to enter it on github.
+ On github go setting located on the top-right icon.
+ On the sidebar, click on SSH and GPG.
+ The click on the New SSH Key.
+ Type in the wanted Title and the SSH given by your IDE and now you are set.
 
 ---
 ## Repository Setup
+1. Go to github, login in
+2. Click on the plus icon and select new repository
+3. Enter name and click on Creat Repository
+4. Copy the SSH from your repository
+5. Go to the desinated location and create a directory
+6. `git init` to create repository
+7. Type in `git remote add origin SSH`
+8. You are all set, you can do whatever you like like creating a file and the add > commit > push  
 
-1. Create a directory or go to the desinated location
-2. Git init to create repository
-3. create a file and the add > commit > push  
-4. you are set 
 
 
 ---
