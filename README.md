@@ -116,7 +116,7 @@ you could see this command recommanded by `git status` after you had added your 
 If you every want to roll back on your commit you would want to use this command. It **"uncommit"** your previous commit.  
 
 **`git reset HEAD~1`**   
-After noticing you dont like you commit you previously made you can use this command to backtrace to the editing stage.
+After noticing you dont like your commit you previously made you can use this command to backtrace to the editing stage.
 The function of this command is to simply **"uncommit" and "unadd"**  
 
 **`git reset --hard HEAD file`**  
@@ -124,4 +124,4 @@ Lastly we have a command that does all of the following. It allows you to **"unc
 <!--explain what SHA is-->
 **`git reset --hard [first nine digit of SHA]`**  
 This command deletes the commit you made from your remote.
-You can thing it as **"Unpushing"** a file.
+You can think of it as **"Unpushing"** a file.
