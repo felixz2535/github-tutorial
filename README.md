@@ -113,3 +113,7 @@ The function of this command is to simply **"uncommit" and "unadd"**
 
 **`git reset --hard HEAD file`**  
 Lastly we have a command that does all of the following. It allows you to **"uncommit", "unadd", and "unedit"**
+
+**`git reset --hard [first nine digit of SHA]`**  
+This command deletes the commit you made from your remote.
+You can thing it as **"Unpushing"** a file.
