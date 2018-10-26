@@ -13,15 +13,14 @@ This is very useful when you want to explore your works and just be creative.
 That means github is the place where you can store your works.
 As long as you have internet you can go to github and look at the project.
 
->A Local is the first place you commit your the files. 
->A Repository in general is where you store you git files.   
+>A Local is the first place you commit your the files. Repository in general is where you store you git files.   
 
 ---
 
-## Initial Setup
+## Initial Setup  
 #### Creating and Loginning into a GitHub Account  
 To create your github account you'll have to go to [github.com](github.com),
-following that click on _Sign Up_. After you've sign up you will need to sign in by clicking on the Sign In.
+following that click on _Sign Up_. After you've sign up you will need to sign in by clicking on the Sign In.  
  
 #### Link the Account to your IDE with SSH key
 Depending on your IDE the way that you get your SSH key may vary however on cloud9 you can get your SSH key with the folling steps:  
