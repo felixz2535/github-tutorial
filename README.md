@@ -14,8 +14,10 @@ That means github is the place where you can store your works.
 As long as you have internet you can go to github and look at the project.
 
 >A Local is the first place you commit your the files. 
->A Repository in general is where you store you git files.
+>A Repository in general is where you store you git files.   
+
 ---
+
 ## Initial Setup
 #### Creating and Loginning into a GitHub Account  
 To create your github account you'll have to go to [github.com](github.com),
