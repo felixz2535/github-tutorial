@@ -65,51 +65,51 @@ By knowing these basic you can explore git as you wish.
 
 **`git init`**  
 The command initializes your directory which should be one of your very first step when using git.
-It lets git know what directory you want it to work on. Without it, you wouldn't be able to use any of the git commands 
+It lets git know what directory you want it to work on. Without it, you wouldn't be able to use any of the git commands. 
 
 **`git add *file*`**
-The command adds a specific file to the stageing area. This is so that you tell git that you are ready to commit the file
+The command adds a specific file to the stageing area. This is so that you tell git that you are ready to commit the file.
 > a staging area is where you can put your file thats ready to commit.
 
 **`git add .`**  
-The command adds all of your file onto the staging area. The important thing is that the command only works for file(s) that are modified or new   
+The command adds all of your file onto the staging area. The important thing is that the command only works for file(s) that are modified or new.   
 
 **`git add --all`**
-This command adds everthing onto the staging area regardless whether it is new or modified
+This command adds everthing onto the staging area regardless whether it is new or modified.
 
-**`git commit -m "message"`**  
+**`git commit -m "*message*"`**  
 The command takes a "screenshot" of your repository. This is kept so that you can track what changes you have made.
-It is often acompanied by a message.  
+In this case it is acompanied by a message.  
 
 **`git clone`**  
-The command clones or makes a copy in your directory of the copyied files (forked or cloned)
+The command clones or makes a copy in your directory of the copyied files (forked or cloned).
 
 **`git push`**  
-After you hand commited you now need to push it.
+After you had commited you now need to push it.
 By using this command you are sending the commit to the remote so that it can be accessed online or by other devices.  
 
 **`git pull`**  
 The command pulls the commit from a remote.
-If you already have a bridge connected between your local and remote you can pull changes that was made by someone else or other devices.
+If you already have a bridge connected between your local and remote you can pull changes that was made by someone else.
 
 **`git remote add origin master`**  
 The command creates a bridge between the remote and the local. This way you can simply send and take commits without the extra `origin master` part that usally follows the command.   
 
 **`git status`**  
-This command is rated to be the most helpful command. Not only it can see your current stage but also suggest what you might want tot do next  
+This command is rated to be the most helpful command. Not only it can see your current stage but also suggest what you might want to do next.  
 
 **`git remote -v`**  
 To check the status of linked remote you can simply use this command. 
 
 **`git diff`**  
 If you ever wanted to compare the differences of your commits this command does the job.
-It check what changes was made between two commits
+It check what changes was made between two commits.
 
 **`git log`**  
-This commits review preview commits along with the SHA which can be useful when you want to refer to it in other commands.  
+This command reviews preview commits along with the SHA which can be useful when you want to refer to it in other commands.  
 
 **`q`**  
-When you are in `git log` you might be confused as to what to do most of the time. By pressing `q`, you can exit the log  
+When you are in `git log` you might be confused how to quit it. By pressing `q`, you can exit the log.
 
 **`rm -rf .git`**  
 This command removes your .git if you ever accidentally initialized a directory or decides to destory the bridge between the local and remote. 
@@ -117,27 +117,27 @@ This command removes your .git if you ever accidentally initialized a directory 
 ---
 ## Rolling Back Changes
 Ever made a mistake in Editing, Adding, Commiting, or Pushing?
-Of course you had this list of command is every help when it comes to rolling back changes.
-You must be very thought proceding these command because when you roll back changes you are abandoning your current position.
+Of course you had this list of command is very helpful when it comes to rolling back changes.
+You must be very thought preceding these command because when you roll back changes you are abandoning your current version.
 
 **`git checkout -- file`**  
 After you edited your file you may perfer the previous version over your current changes,
 this is where this command come to use. It **"unedit"** you current file.   
 
 **`git reset HEAD file`**  
-When you add a file onto the stage you might want to **"unadd"** to do so you used this command, 
+When you accidentally add a file onto the stage you might want to **"unadd"** to do so you used this command, 
 you could see this command recommanded by `git status` after you had added your file(s) to the stage. 
 
 **`git reset --soft HEAD file`**  
-If you every want to roll back on your commit you would want to use this command. It **"uncommit"** your previous commit.  
+If you ever want to roll back on your commit you would want to use this command. It **"uncommit"** your previous commit.  
 
 **`git reset HEAD~1`**   
-After noticing you dont like your commit you previously made you can use this command to backtrace to the editing stage.
-The function of this command is to simply **"uncommit" and "unadd"**  
+After noticing you don't like your commit you previously made you can use this command to backtrace to the editing stage.
+The function of this command is to simply **"uncommit" and "unadd"**.  
 
 **`git reset --hard HEAD file`**  
-Lastly we have a command that does all of the following. It allows you to **"uncommit", "unadd", and "unedit"**
- >An SHA is a unique code that is given to a commit that help when you want to refer to it
+Lastly we have a command that does all of the following. It allows you to **"uncommit", "unadd", and "unedit"**.
+ >A SHA is a unique code that is given to a commit, this way you can easily refer to it.
  
 **`git reset --hard [first nine digit of SHA]`**  
 This command deletes the commit you made from your remote.
