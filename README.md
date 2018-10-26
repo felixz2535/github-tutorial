@@ -17,23 +17,23 @@ As long as you have internet you can go to github and look at the project.
 >A Repository in general is where you store you git files.
 ---
 ## Initial Setup
- #### Creating and Loginning into a GitHub Account  
- To create your github account you'll have to go to [github.com](github.com),
- following that click on _Sign Up_. After you've sign up you will need to sign in by clicking on the Sign In.
+#### Creating and Loginning into a GitHub Account  
+To create your github account you'll have to go to [github.com](github.com),
+following that click on _Sign Up_. After you've sign up you will need to sign in by clicking on the Sign In.
  
- #### Link the Account to your IDE with SSH key
- Depending on your IDE the way that you get your SSH key may vary however on cloud9 you can get your SSH key with the folling steps:  
+#### Link the Account to your IDE with SSH key
+Depending on your IDE the way that you get your SSH key may vary however on cloud9 you can get your SSH key with the folling steps:  
   1. Click on _Cloud9_ located on the top-left corner
   2. Click on _Go to Your Dashboard_
   3. Click on _Account Setting (gear icon)_ located near the top right corner
   4. Click on _SSH Key_ on the side bar
   5. You should see your SSH key
 
- After you get your SSH key you'll have to enter it on github.
- On github go setting located on the top-right icon.
- On the sidebar, click on SSH and GPG.
- The click on the New SSH Key.
- Type in the wanted Title and the SSH given by your IDE and now you are set.
+After you get your SSH key you'll have to enter it on github.
+On github go setting located on the top-right icon.
+On the sidebar, click on SSH and GPG.
+The click on the New SSH Key.
+Type in the wanted Title and the SSH given by your IDE and now you are set.
 
 >An IDE is a programing environment that consist various important tools like code editor, debugger etc.
 that helps you format and display you codes.
